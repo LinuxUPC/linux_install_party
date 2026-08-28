@@ -51,6 +51,8 @@ En qualsevol cas, és molt habitual canviar de distro un cop tens més experièn
 <details>
 <summary>🔧 Detalls tècnics: què és realment una distro?</summary>
 
+---
+
 Normalment, als principiants se'ls diu que les distribucions són "versions" de Linux. Això no és del tot exacte.
 
 Primer hem d'entendre que Linux, pròpiament dit, no és un sistema operatiu complet. Linux és un **kernel**: la part del sistema que s'encarrega de comunicar-se amb el maquinari i gestionar recursos com la memòria, els processos i els dispositius.
@@ -85,6 +87,8 @@ I el podeu canviar: podeu instal·lar un altre DE en una mateixa distro.
 
 De fet, molts usuaris més avançats instal·len una distro minimalista sense entorn d'escriptori i després instal·len les diferents aplicacions i components al seu gust.
 L'inconvenient és que heu d'estar vosaltres mateixos pendents que tot funcioni i requereix més feina per deixar el sistema preparat per al dia a dia.
+
+---
 </details>
 
 ## 3 - Flashejar la ISO a la memòria USB
@@ -101,11 +105,15 @@ Quan acabeu, hauríeu de tenir una memòria USB preparada per instal·lar Linux.
 <details>
 <summary>🔧 Detalls tècnics: què vol dir "flashejar" una ISO?</summary>
 
+---
+
 Una ISO és un fitxer que conté una còpia completa de l'estructura d'un disc, en aquest cas el disc d'instal·lació de Linux.
 No n'hi ha prou amb copiar el fitxer `.iso` a l'USB com si fos un document normal.
 
 Quan "flashem" una ISO, escrivim el seu contingut a la memòria USB directament bit a bit de manera que l'ordinador pugui iniciar-se directament des d'ella.
 Això crea un **USB d'arrencada** (*bootable USB*).
+
+---
 </details>
 
 ## 4 - Desactivar BitLocker
