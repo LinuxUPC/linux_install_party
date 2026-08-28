@@ -6,10 +6,6 @@ Per anar més ràpids el dia de la install party, necessitem que porteu el mater
 > Aquest document també té algunes explicacions tècniques amb més detall, per si teniu curiositat.
 > Si no us voleu complicar la vida, les podeu ignorar fàcilment.
 
-> [!WARNING]
-> Si instal·larem Linux esborrant Windows, la instal·lació pot eliminar **totes les dades del disc del portàtil**.
-> Assegureu-vos de tenir una còpia de seguretat de tots els fitxers importants abans de venir.
-
 > [!NOTE]
 > **Portàtils Apple:** instal·lar Linux nativament pot ser més complicat, especialment en els Mac amb Apple Silicon (M1, M2, M3, etc.).
 > Si teniu un Mac i no esteu segurs de si és compatible, consulteu-nos abans de la install party.
@@ -22,12 +18,12 @@ Per anar més ràpids el dia de la install party, necessitem que porteu el mater
 
 Abans de venir, assegureu-vos de tenir:
 
-[ ] 💾 Una memòria USB de **8 GB o més**
-[ ] 💿 La ISO de Linux descarregada
-[ ] 🔥 La ISO flashejada a la memòria USB
-[ ] 💾 Una còpia de seguretat dels vostres fitxers importants
-[ ] 🔌 El carregador del portàtil
-[ ] 🔑 La contrasenya del vostre compte de Microsoft
+- 💾 Una memòria USB de **8 GB o més**
+- 💿 La ISO de Linux descarregada
+- 🔥 La ISO flashejada a la memòria USB
+- 💾 Una còpia de seguretat dels vostres fitxers importants
+- 🔌 El carregador del portàtil
+- 🔑 La contrasenya del vostre compte de Microsoft
 
 ## 1 - Memòria USB Flash amb 8 GB o més
 
@@ -44,9 +40,9 @@ Normalment no necessitareu més de 8 GB, però si voleu fer servir l'USB per a a
 
 Hi ha moltes distribucions (*distros*) de Linux diferents. Si mai heu utilitzat Linux, és difícil saber quina és millor per a vosaltres.
 Nosaltres us recomanem una de les següents:
-- [Ubuntu](https://ubuntu.com/download/desktop) — és una de les distribucions més utilitzades i tradicionalment una de les més recomanades per a principiants.
-- [Debian](https://www.debian.org/) — és una distribució molt estable, però les versions més noves d'alguns programes no sempre estan disponibles fàcilment.
-- [Linux Mint](https://www.linuxmint.com/download.php) — és especialment popular entre usuaris que venen de Windows.
+- [Ubuntu](https://ubuntu.com/download/desktop): és una de les distribucions més utilitzades i tradicionalment una de les més recomanades per a principiants.
+- [Debian](https://www.debian.org/): és una distribució molt estable, però les versions més noves d'alguns programes no sempre estan disponibles fàcilment.
+- [Linux Mint](https://www.linuxmint.com/download.php): és especialment popular entre usuaris que venen de Windows.
 
 També podeu buscar altres opcions per Internet.
 
@@ -154,11 +150,11 @@ Podeu fer la còpia a un disc extern, una memòria USB o un servei d'emmagatzema
 # El dia de la install party
 
 Porteu:
-[ ] 💻 El vostre portàtil
-[ ] 🔌 **El carregador**
-[ ] 💾 La memòria USB amb Linux preparada
-[ ] 🔑 La contrasenya del vostre compte de Microsoft
-[ ] 💾 Una còpia de seguretat dels vostres fitxers importants
+- 💻 El vostre portàtil
+- 🔌 **El carregador**
+- 💾 La memòria USB amb Linux preparada
+- 🔑 La contrasenya del vostre compte de Microsoft
+- 💾 Una còpia de seguretat dels vostres fitxers importants
 
 > [!IMPORTANT]
 > Si teniu algun dubte sobre la compatibilitat del vostre ordinador o sobre algun dels passos anteriors, **no intenteu solucionar-lo a cegues**. Pregunteu-nos abans de la install party i ho revisem.
