@@ -40,9 +40,9 @@ Normalment no necessitareu més de 8 GB, però si voleu fer servir l'USB per a a
 
 Hi ha moltes distribucions (*distros*) de Linux diferents. Si mai heu utilitzat Linux, és difícil saber quina és millor per a vosaltres.
 Nosaltres us recomanem una de les següents:
-- [Ubuntu](https://ubuntu.com/download/desktop): és una de les distribucions més utilitzades i tradicionalment una de les més recomanades per a principiants.
-- [Debian](https://www.debian.org/): és una distribució molt estable, però les versions més noves d'alguns programes no sempre estan disponibles fàcilment.
-- [Linux Mint](https://www.linuxmint.com/download.php): és especialment popular entre usuaris que venen de Windows.
+- [Ubuntu](https://ubuntu.com/download/desktop): és una de les distribucions de Linux més utilitzades i conegudes.
+- [Debian](https://www.debian.org/CD/): és una distribució molt estable, segura i fiable, tot i que pot oferir versions més antigues del programari.
+- [Linux Mint](https://www.linuxmint.com/download.php): és especialment popular entre els usuaris que provenen de Windows gràcies a la seva interfície senzilla i familiar.
 
 També podeu buscar altres opcions per Internet.
 
