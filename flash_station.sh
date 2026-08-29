@@ -78,6 +78,8 @@ usage() {
     echo -e "  -v, --verbose        Increase verbosity (can be repeated)"
     echo -e "  -q, --quiet          Suppress non-essential output"
     echo -e "  -h, --help           Show this help message"
+    echo 
+    echo -e "Verbosity levels are Normal, Verbose (-v), Debug (-vv..)"
 }
 
 # ============================================================
@@ -114,8 +116,8 @@ alert() {
             beep
         fi
     fi
-
     log debug "Status code: $status"
+    return "$status"
 }
 
 # ============================================================
@@ -296,8 +298,13 @@ if [[ "$VERBOSITY" -ge 1 ]]; then
     echo -e "  ${BOLD}Skipping flashing:${RESET}    $([[ "$SKIP_FLASHING" -eq 1 ]] && echo "Yes" || echo "No")"
     echo -e "  ${BOLD}Verbosity:${RESET}            $verbose ($VERBOSITY)"
     echo
-    read -n 1 -s -r -p "$(echo -e "${YELLOW}Press any key to continue...${RESET}")"
+    read -n 1 -r -p "$(echo -e "${YELLOW}Continue? ${RESET}[y/N] ")" answer
     echo
+    if [[ ! "$answer" =~ ^[Yy]$ ]]; then
+        log error "Aborting operation..."
+        exit 11
+    fi
+    log debug "Continue accepted"
 fi
 
 # ============================================================
@@ -354,10 +361,11 @@ fi
 # Verification
 # ============================================================
 
-log milestone "${CYAN}${BOLD}Verifying integrity...${RESET}"
+log milestone "Verifying integrity..."
 log warning "Removing device might lead to incorrect output"
 
-if alert sudo cmp -n "$ISO_SIZE" "$ISO" "$OF"; then
+alert sudo cmp -n "$ISO_SIZE" "$ISO" "$OF"
+if [[ "$?" -eq 0 ]]; then
     log success "USB has the correct bits!"
 else
     log error "THERE IS AN ERROR WITH THIS USB"
