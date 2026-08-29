@@ -100,10 +100,10 @@ beep() {
 alert() {
     local command_string="$*"
 
+    log debug "Running with alert: $command_string"
+
     "$@"
     local status="$?"
-
-    log debug "Running with alert: $command_string"
 
     if [ "$status" -eq 0 ]; then
         if [[ "$VERBOSITY" -ge 1 ]]; then
