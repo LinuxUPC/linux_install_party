@@ -4,7 +4,7 @@
 
 ## 1. Introducció
 
-La *Linux Install Party* és una activitat d'assistència tècnica voluntària organitzada per **LinuxUPC** (en endavant, "l'Associació"), una associació afiliada a la Universitat Politècnica de Catalunya (UPC).
+La *Linux Install Party* és una activitat organitzada per **LinuxUPC** (en endavant, "l'Associació"), una associació afiliada a la Universitat Politècnica de Catalunya (UPC).
 
 L'activitat té com a objectiu oferir als participants ajuda per instal·lar i configurar sistemes GNU/Linux als seus ordinadors.
 
